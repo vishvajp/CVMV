@@ -1,0 +1,27 @@
+.App {
+  /* text-align: center; */
+  overflow-y: hidden;
+}
+
+body{
+  overflow-y: unset !important;
+}
+
+/* pendingmemsinpage css */
+
+.pendingmemsin-children{
+  color: white;
+    /* background-color: red; */
+    padding: 10px;
+    margin: 20px 0px;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: 600;
+     /* width: fit-content; */
+}
+
+.pendingmemsin-children-span{
+  background-color: red;
+  padding: 5px 20px;
+  border-radius: 10px;
+}

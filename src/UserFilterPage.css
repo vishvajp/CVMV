@@ -1,0 +1,86 @@
+.userfill-records-text {
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+}
+
+.userfill-records-text-div {
+  padding: 10px 0px;
+}
+
+.userfill-icon {
+  color: red;
+  background-color: white;
+  width: 34px;
+  height: 34px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.userfill-icon:hover{
+  cursor: pointer;
+}
+
+.userfiter-moredetails-button {
+  color: white;
+  background-color: green;
+  border: none;
+  padding: 5px 10px;
+  box-shadow: 0px 0px 2px gray;
+  border-radius: 5px;
+}
+
+.userfilter-delete-button {
+  color: white;
+  background-color: red;
+  border: none;
+  padding: 5px 10px;
+  box-shadow: 0px 0px 2px gray;
+  border-radius: 5px;
+}
+
+.track {
+  background-color: #ddd;
+  height: 10px;
+  border-radius: 5px;
+}
+
+.thumb {
+  background-color: #4CAF50;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.react-slider {
+  width: 100%;
+  margin: 10px 0;
+}
+
+@media screen and (max-width:500px) {
+  .userfill-records-text{
+    font-size: 12px;
+  }
+
+  .userfill-icon{
+    width: 25px;
+    height: 25px;
+  }
+
+  .filter-more-delete-button-span{
+    flex-direction: row !important;
+  }
+  .userfilter-name-span{
+    text-align: center;
+  }
+  .userfilter-address-span{
+    text-align: center;
+  }
+  .userfilter-userid-span{
+    text-align: center;
+  }
+  .userfilter-contact-span{
+    text-align: center;
+  }
+}

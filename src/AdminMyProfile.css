@@ -1,0 +1,206 @@
+.adminMyprofile-button{
+    background-color: green;
+    border: 1px solid gray;
+    padding: 5px 15px;
+}
+
+.myprofile-button-div{
+    width: 80%;
+  
+        
+}
+
+.adminMyprofile-button{
+    text-align: start;
+    font-size: 14px;
+    font-weight: 500;
+    width: 100%;
+}
+
+.myprofile-button-span{
+    width: 3px;
+}
+
+.myprofile-image{
+    height: 150px;
+    width: 150px;
+
+}
+.myprofile-profile-text{
+    background-color:#194738;
+    border-radius: 25px;
+    color: white;
+    font-size: larger;
+    font-weight: 600;
+    padding: 5px 15px;
+    text-align: center;
+}
+
+
+.myprofile-1stcol-span{
+    font-family: "avenir",sans-serif;
+    font-size: 1em;
+
+    color: #d9232d;
+    font-weight: bold;
+}
+
+.myprofile-2ndcol-span{
+    font-family: 'AvenirMed',sans-serif;
+    font-size: 1em;
+    padding: 0;
+   font-weight: bold;
+    color: #666666;
+}
+
+.myprofile-all-col{
+    background-color: white;
+    border-radius: 10px 0px 0px 10px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5), 0px 0px 1px rgba(0, 0, 0, 0.5);
+
+}
+
+.myprofile-all-col2{
+    background-color: white;
+    border-radius: 0px 10px 10px 0px; 
+    /* box-shadow: 
+    0px -2px 2px rgba(0, 0, 0, 0.5), 
+    2px 0px 2px rgba(0, 0, 0, 0.5),  
+    0px 2px 2px rgba(0, 0, 0, 0.5);   */
+    box-shadow: 1px 0px 2px rgba(0, 0, 0, 0.5),0px 0px 0px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+
+/* Change Password */
+
+
+.myprofile-input-div{
+
+    box-shadow: 0px 0px 2px gray;
+    border-radius: 13px;
+    padding: 0px 10px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.myprofile-input{
+    border: none;
+    padding: 0px 10px;
+    height: 30px;
+    width: 93%;
+
+}
+
+.myprofile-input:focus{
+    border: none;
+    outline: none;
+}
+.myprofile-input:active{
+    border: none;
+    outline: none;
+}
+
+.myprofile-changepassword-main-div{
+    width: 60%;
+}
+
+.change-password-text{
+    text-align: center;
+    background-color:#194738;
+    color: white;
+    font-size: larger;
+    font-weight: 500;
+    border-radius: 15px 15px 0px 0px;
+    padding: 5px ;
+
+}
+
+.change-password-whole-div{
+    background-color: white;
+    border-radius: 15px;
+    border: 2px solid rgb(168, 168, 168);
+}
+
+.change-password-update-button{
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 15px;
+    box-shadow: 0px 0px 2px gray;
+    font-weight: 500;
+}
+
+.change-password-cancel-button{
+    color: white;
+    background-color:red;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 15px;
+    box-shadow: 0px 0px 2px gray;
+    font-weight: 500;
+}
+
+
+/* Edit Profile */
+
+.editprofile-input{
+    border: none;
+    box-shadow: 0px 0px 2px gray;
+    border-radius: 20px;
+    height: 30px;
+    outline: none;
+    padding: 0px 10px;
+}
+
+.edit-profile-field-row{
+padding: 10px;
+}
+
+@media screen and (max-width:430px) {
+    .myprofile-button-div{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .myprofile-pro-image{
+        justify-content: center !important;
+    }
+
+    .my-profile-detail-row{
+        padding: 20px 5px !important;
+        margin-bottom: 10px;
+    }
+
+    .myprofile-2ndcol-span{
+        font-size: 12px;
+    }
+
+    .myprofile-1stcol-span{
+        font-size: 12px;
+    }
+
+.myprofile-all-col{
+    border-radius: 10px;
+}
+
+.myprofile-all-col2{
+    border-radius: 10px;
+}
+
+
+    /* change Password */
+
+    .myprofile-changepassword-main-div{
+        width: 80%;
+    }
+
+    
+.myprofile-input{
+    width: 90%;
+}
+}
+

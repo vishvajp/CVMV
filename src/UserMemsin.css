@@ -1,0 +1,122 @@
+.usememsin-membership-text {
+  color: white;
+  background-color: red;
+  padding: 7px;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.usermemsin-1stcol-status-div {
+  background-color: gainsboro;
+
+  padding: 10px;
+  border-bottom: 1px solid white;
+}
+
+.usermemsin-1stcol-last-status-div {
+  background-color: gainsboro;
+  border-radius: 0px 0px 10px 10px;
+  padding: 10px;
+  border-bottom: 1px solid white;
+}
+
+.usermemsin-1stcol-title-text {
+  font-size: 18px;
+  font-weight: 600;
+
+  letter-spacing: 1px;
+  color: black;
+}
+
+.usermemsin-1stcol-field-text {
+  font-size: 15px;
+  font-weight: 400;
+
+  letter-spacing: 1px;
+  color: black;
+}
+
+.usermemsin-2nd-col-membership-text {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.userMemsin-contact-collapse {
+  /* border-radius: 30px; */
+  margin-bottom: 10px;
+}
+
+.userMemsin-contact-collapse .ant-collapse-header {
+  border-radius: 30px;
+  padding: 5px !important;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.usermemsin-user-img {
+  width: 150px;
+  height: 150px;
+}
+
+.usermensin-2nd-col-contact-span {
+  color: red;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.usermensin-2nd-col-contact-field-span {
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.usermemsin-edit-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.usermemsin-children-title {
+  color: white;
+  background-color: red;
+  padding: 10px;
+  margin: 20px 0px;
+  border-radius: 10px;
+  font-size: large;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 430px) {
+  .usermemsin-col-1-2 {
+    width: 34%;
+  }
+  .usermemsin-col-2 {
+    width: 65%;
+  }
+
+  .usermensin-2nd-col-contact-span {
+    font-size: 12px;
+  }
+  .usermensin-2nd-col-contact-field-span {
+    font-size: 12px;
+  }
+  .usermem-district-loc-span {
+    text-align: center;
+  }
+  .usermem-phone-span {
+    text-align: center;
+  }
+}
+
+.memsin-children-title{
+  text-align: center;
+  font-weight: 600;
+}

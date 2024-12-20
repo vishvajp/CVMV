@@ -1,0 +1,159 @@
+.usermem-man-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 2px gray;
+}
+
+.usermem-1stcol-main-div {
+  height: 90vh;
+  overflow-y: scroll;
+  border-radius: 15px;
+  box-shadow: 0px 0px 2px gray;
+  padding: 10px;
+}
+.usermem-1stcol-main-div::-webkit-scrollbar {
+  width: 8px; /* Change this value to adjust the width */
+}
+.usermem-1stcol-main-div::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Optional: background for the track */
+}
+
+.usermem-1stcol-main-div::-webkit-scrollbar-thumb {
+  background: #888; /* Optional: color for the scrollbar thumb */
+  border-radius: 10px; /* Optional: round the thumb */
+}
+
+.usermem-1stcol-main-div::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Optional: color when hovering */
+}
+
+.usermem-active-mem-records-text {
+  background-color: #194738;
+  color: white;
+  font-size: large;
+  font-weight: 600;
+  padding: 10px 10px;
+  margin-bottom: 0px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.usermem-active-mem-records-div {
+  background-color: red;
+  color: white;
+  font-size: large;
+  font-weight: 600;
+  padding: 10px 10px;
+  margin-bottom: 0px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.usermem-total-activ-mem {
+  background-color: #102c23;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+.usermem-total-activ-div {
+  background-color: gray;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+.usermem-total-active-mem-text {
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  padding: 5px 10px;
+}
+
+.usermem-search-input {
+  height: 30px;
+  border-radius: 15px;
+  border: none;
+  padding: 0px 10px;
+  margin: 3px;
+}
+.usermem-user-mid-detail {
+  justify-content: center;
+  width: 36%;
+  max-width: 70%;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.usermem-userid-span {
+  background-color: green;
+  color: white;
+  padding: 2px 10px;
+  border-radius: 5px;
+}
+
+.usermem-userid-inactive-span {
+  background-color: red;
+  color: white;
+  padding: 2px 10px;
+  border-radius: 5px;
+}
+
+.usermem-all-details-div {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0px 0px 2px gray;
+}
+
+.usermem-share-button {
+  color: white;
+  background-color: red;
+  border: none;
+  padding: 5px 10px;
+  box-shadow: 0px 0px 2px gray;
+  border-radius: 5px;
+}
+
+.memfill-icon {
+  color:#194738;
+  background-color: white;
+  width: 34px;
+  height: 34px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.memfill-icon:hover{
+  cursor: pointer;
+}
+
+
+@media screen and (max-width:500px) {
+  .usermem-search-input{
+    width: 80%;
+  }
+  .usermem-user-mid-detail{
+    font-size: 13px;
+    width: 95%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .usermem-all-details-div{
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center;
+  }
+  .usermem-man-img{
+    width: 140px;
+    height: 140px;
+  }
+  .memfill-icon{
+    width: 25px;
+    height: 25px;
+  }
+
+  .usermem-1stcol-main-div{
+    margin-bottom: 100px;
+  }
+}

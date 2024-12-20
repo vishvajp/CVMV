@@ -1,0 +1,139 @@
+.loginpage-form-main-div {
+  box-shadow: 0px 0px 4px gray;
+  padding: 20px;
+  width: 85%;
+  max-width: 350px;
+  border-radius: 20px;
+  margin-top: 55px;
+  background-color: white;
+}
+
+.loginpage-logo {
+  width: 36%;
+  margin-top: -60px;
+
+  filter: drop-shadow(2px 2px 0px white);
+}
+
+.login-logo {
+  width: 250px;
+}
+
+.loginpage-bg-div {
+  background: url("./image/cvmvbg.png");
+  height: 100vh;
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.loginpage-admin-text {
+  font-size: 1.5em;
+  line-height: 28px;
+  color: #d9232d;
+  font-weight: bold;
+  margin: 10px;
+  letter-spacing: 1px;
+  font-family: "avenir", sans-serif;
+}
+
+.loginpage-input {
+  border: none;
+  padding: 0px 10px;
+  height: 30px;
+  width: 90%;
+}
+
+.loginpage-input:focus {
+  border: none;
+  outline: none;
+}
+.loginpage-input:active {
+  border: none;
+  outline: none;
+}
+
+.loginpage-label {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  font-size: 15px;
+  color: gray;
+  font-family: "avenir", sans-serif;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+.loginpage-input-div {
+  box-shadow: 0px 0px 2px gray;
+  border-radius: 13px;
+  padding: 0px 10px;
+  margin-bottom: 10px;
+  background-color: white;
+}
+
+.loginpage-login-button {
+  font-family: "avenir", sans-serif;
+  background: #d9232d;
+  font-size: 18px;
+  color: #fff !important;
+  padding: 7px 25px;
+
+  text-transform: capitalize;
+  border: none;
+  border-radius: 25px;
+  margin-top: 1em;
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.loginpage-login-button:hover {
+  background-color: #ffd200;
+}
+
+.loginpage-forget-password-span {
+  color: gray;
+  font-size: 15px;
+  font-family: "avenir", sans-serif;
+}
+.loginpage-forget-password-span:hover {
+  cursor: pointer;
+}
+
+.loginpage-icons {
+  color: gray;
+}
+
+.loginpage-bottom-2024-text {
+  color: gray;
+  font-size: 15px;
+  font-family: "avenir", sans-serif;
+}
+
+.loginpage-bottom-cvmv-text {
+  color: red;
+  font-size: 15px;
+  font-family: "avenir", sans-serif;
+}
+
+.loginpage-bottom-cvmv-text:hover {
+  color: black;
+}
+
+
+@media screen and (max-width:500px) {
+  
+  .login-logo{
+    width: 170px;
+  }
+  .login-login-text{
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 10px;
+  }
+  .loginpage-bg-div {
+    background: url("./image/cvmv-mob-bg.jpg");
+    height: 100vh;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}

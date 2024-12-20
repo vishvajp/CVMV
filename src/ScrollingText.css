@@ -1,0 +1,9 @@
+.scrolling-update-button{
+    width: fit-content;
+    color: white;
+    background-color: green;
+    border: none;
+    padding: 5px 15px;
+    font-size: large;
+    border-radius: 5px;
+}

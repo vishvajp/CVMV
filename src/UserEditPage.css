@@ -1,0 +1,126 @@
+.userEditPage-contact-detail-div {
+  padding: 15px 15px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 0px 1px gray;
+  margin-bottom: 10px;
+}
+
+.userEditPage-horo-detail-div {
+  padding: 15px 15px;
+  background-color: white;
+  border-radius: 20px;
+  width: fit-content;
+  box-shadow: 0px 0px 1px gray;
+  margin-bottom: 10px;
+}
+
+.user-edit-form {
+  padding: 15px;
+}
+
+.user-edit-page-titles {
+  margin-bottom: 7px;
+  color: red;
+  font-size: large;
+  font-weight: 600;
+}
+
+.user-edit-page-family-text {
+  font-size: large;
+  font-weight: 600;
+  text-decoration: underline;
+  padding-left: 10px;
+}
+
+.user-edit-form label {
+  padding-left: 10px;
+}
+
+.user-edit-form-label {
+  padding: 10px;
+  font-weight: 600;
+  font-size: large;
+}
+.user-edit-form input {
+  color: red;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0px 0px 2px gray;
+  background-color: rgb(234, 232, 232);
+  font-size: medium;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.user-edit-form textarea{
+  color: red;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0px 0px 2px gray;
+  background-color: rgb(234, 232, 232);
+  font-size: medium;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.user-edit-form select {
+  color: red;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0px 0px 2px gray;
+  background-color: rgb(234, 232, 232);
+  font-size: medium;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.user-edit-horo-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 2px gray;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+
+
+
+.user-edit-form-choose-file-input {
+  width: 227px;
+  color: red;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0px 0px 2px gray;
+  background-color: rgb(234, 232, 232);
+  font-size: medium;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.user-edit-page-update-button {
+  color: white;
+  border: none;
+  background-color: green;
+  padding: 5px 20px;
+  font-size: x-large;
+  font-weight: 500;
+  box-shadow: 0px 0px 2px gray;
+  border-radius: 10px;
+}
+
+.user-edit-page-delete-button {
+  color: white;
+  border: none;
+  background-color: red;
+  padding: 5px 20px;
+  font-size: x-large;
+  font-weight: 500;
+  box-shadow: 0px 0px 2px gray;
+  border-radius: 10px;
+}

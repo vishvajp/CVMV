@@ -1,0 +1,91 @@
+.otp-form {
+  width: 27%;
+  background-color: white;
+  padding: 15px;
+  box-shadow: 0px 0px 2px gray;
+  border-radius: 10px;
+}
+
+.otp-otp-div {
+  gap: 0px;
+  align-items: center;
+}
+
+.otp-label {
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  color: red;
+}
+
+.otp-ant-otp-title {
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  color: red !important;
+}
+
+.ant-otp-input {
+  border: 1px solid black;
+}
+
+.otp-mobile-input {
+  border: none;
+  height: 30px;
+  box-shadow: 0px 0px 2px gray;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 15px;
+  width: 100%;
+  /* border: black; */
+}
+
+.otp-send-otp-button {
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  background-color: green;
+  border-radius: 8px;
+  box-shadow: 0px 0px 2px gray;
+  font-weight: 500;
+  width: fit-content;
+  margin-top: 20px;
+}
+
+.otp-submit-button {
+  width: fit-content;
+  color: white;
+  font-weight: 500;
+  background-color: red;
+  border: none;
+  padding: 5px 20px;
+  box-shadow: 0px 0px 2px gray;
+  border-radius: 8px;
+  font-size: 17px;
+}
+
+.otp-message-span {
+  margin-left: 10px;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #166c16;
+}
+
+.otp-err-message-span {
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #fd9801;
+}
+
+@media screen and (max-width: 768px) {
+  .otp-form {
+    width: 90%;
+  }
+}

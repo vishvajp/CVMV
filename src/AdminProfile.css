@@ -1,0 +1,149 @@
+.adminprofile-pro-img {
+  width: 120px;
+  height: 120px;
+  margin-left: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 2px gray;
+}
+
+.adminprofile-admin-records-text {
+  background-color: #194738;
+  color: white;
+  font-size: large;
+  font-weight: 600;
+  padding: 10px 10px 10px 20px;
+  margin-bottom: 0px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.adminprofile-total-admin-text-div {
+  background-color: #102c23;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+}
+
+.adminprofile-total-admin-text {
+  font-size: large;
+  font-weight: 600;
+  color: white;
+  padding: 5px 10px;
+}
+
+.adminprofile-search-input {
+  height: 35px;
+  border-radius: 15px;
+  border: none;
+  padding: 0px 10px;
+}
+
+.admin-profile-details {
+  width: 58%;
+  max-width: 75%;
+  font-size: 15px;
+  font-weight: 500;
+  justify-content: center;
+  margin-left: 20px;
+  gap: 15px;
+}
+
+.admin-profile-user-name {
+  color: black;
+  font-size: large;
+  font-weight: 700;
+}
+
+.adminprofile-share-icon {
+  width: 40px;
+  height: 40px;
+  color: red;
+}
+
+.adminprofile-admin-records-perperson-div {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 0px 2px gray;
+  align-items: center;
+}
+
+.adminprofile-admin-records-main-div {
+  box-shadow: 0px 0px 2px gray;
+  border-radius: 10px;
+}
+
+.adminprofile-perperson-detail {
+  color: green;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.adminprofile-perperson-detail-data {
+  color: black;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.adminprofile-pro-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 2px gray;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 430px) {
+  .adminprofile-total-admin-text {
+    font-size: 14px;
+  }
+  .adminprofile-search-input {
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+
+  .adminprofile-pro-img {
+    width: 80px;
+    width: 80px;
+    margin-left: 10px;
+  }
+  .admin-profile-details {
+    font-size: 13px;
+    gap: 5px !important;
+  }
+  .adminprofile-share-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  .adminprofile-perperson-detail {
+    font-size: 13px;
+  }
+  .adminprofile-perperson-detail-data {
+    font-size: 13px;
+  }
+
+  .adminprofile-admin-records-perperson-div{
+flex-direction: column;
+  }
+  .admin-profile-user-name{
+    text-align: center;
+  }
+  .admin-profile-email{
+    text-align: center;
+  }
+  .admin-profile-type{
+    text-align: center;
+  }
+  .adminprofile-share-icon{
+    margin-right: 0px;
+    margin-left: 20px;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+  }
+}

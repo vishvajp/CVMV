@@ -1,0 +1,48 @@
+.multi-range-slider .thumb::before {
+  display: none;
+}
+
+.multi-range-slider .ruler .ruler-rule {
+  display: none;
+}
+
+.multi-range-slider .labels {
+  margin-top: 0px;
+}
+
+.thumb {
+  width: 10px;
+  height: 10px;
+}
+
+.multi-range-slider .caption {
+  bottom: 20px;
+}
+
+.multi-range-slider .thumb .caption * {
+  font-size: 12px;
+  min-width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  line-height: 20px;
+  background-color: red;
+}
+
+.multi-range-slider .bar-inner {
+  background-color: #ff8400;
+  border: none;
+}
+
+.print-button {
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 10px;
+  border: none;
+}
+
+.mat-filter-age-input{
+  width: 50%;
+  border-radius: 5px;
+  border: none;
+}

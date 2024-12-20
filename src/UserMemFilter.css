@@ -1,0 +1,47 @@
+.userMem-filter-select{
+    border-radius: 5px;
+    border: none;
+
+    border-radius: 5px;
+    padding: 0px 6px;
+    font-weight: 500;
+}
+
+.usermatri-transac-page{
+    border: none;
+    border-radius: 5px;
+    padding: 0px 6px;
+    font-weight: 500;
+    height: 30px;
+    color: red;
+    box-shadow: 2px 2px 2px gray;
+}
+
+.usermatri-transac-print{
+    color: white;
+    background-color: green;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+}
+
+.usermem-filter-search-input{
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    padding: 0px 10px;
+ 
+    width: 100%;
+}
+
+.usermem-filter-print-button{
+    color: white;
+    background-color: green;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 10px;
+    /* margin-bottom: 5px; */
+    border-radius: 5px;
+    font-size: medium;
+}

@@ -1,0 +1,165 @@
+.notification-page-pending-img {
+  width: 130px;
+  height: 130px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 2px gray;
+}
+
+.notification-matrimony-pending-text {
+  background-color: red;
+  text-align: center;
+  color: white;
+  font-size: x-large;
+  font-weight: 500;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 2px gray;
+  padding: 5px 15px;
+}
+
+.notification-matrimony-pending-text:hover {
+  cursor: pointer;
+}
+.notification-more-detail-button {
+  color: white;
+  background-color: red;
+  border: none;
+  padding: 5px 10px;
+  box-shadow: 0px 0px 2px gray;
+  border-radius: 5px;
+}
+
+.notification-membership-pending-text {
+  background-color: green;
+  text-align: center;
+  color: white;
+  font-size: x-large;
+  font-weight: 500;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 2px gray;
+  padding: 5px 15px;
+}
+
+.notification-membership-pending-text:hover {
+  cursor: pointer;
+}
+
+.notification-pending-title {
+  text-align: center;
+  font-size: large;
+  color: white;
+  background-color: gray;
+  font-weight: 600;
+  padding: 5px;
+  border-radius: 15px;
+  background-color: red;
+}
+
+.notification-pending-name-span {
+  font-size: large;
+  font-weight: 700;
+  color: black;
+  letter-spacing: 1px;
+}
+
+.notification-member-img {
+  width: 130px;
+}
+
+.notification-membership-text {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.notification-pending-list-text {
+  color: white;
+  color: yellow;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.notification-total-user-div {
+  background-color: red;
+  padding: 20px 40px 40px 40px;
+  border-radius: 20px;
+}
+
+.notification-total-user-div:hover {
+  cursor: pointer;
+}
+
+.notification-total-user-count-div {
+  background-color: black;
+  padding: 3px 50px;
+  border-radius: 35px;
+  border: 5px solid white;
+  margin-top: -24px;
+  margin-bottom: 20px;
+}
+
+.notification-matri-total-user-div {
+  background-color: #194738;
+  padding: 20px 40px 40px 40px;
+  border-radius: 20px;
+}
+
+.notification-matri-total-user-div:hover {
+  cursor: pointer;
+}
+
+.notification-mobile-forward-icon{
+  display: none;
+}
+
+@media screen and (max-width:500px) {
+  .notification-more-detail-button{
+    margin-right: 0px !important;
+  }
+  .notification-page-pending-img{
+    height: 80px;
+    width: 80px;
+  }
+
+  .notification-pending-name-span{
+    font-size: small;
+    text-align: center;
+  }
+  .notification-matri-district{
+    font-size: small;
+    text-align: center;
+  }
+  .usermem-userid-span{
+    font-size: small;
+    text-align: center;
+  }
+
+  .notification-matri-contact{
+    font-size: small;
+    text-align: center;
+  }
+  .usermem-user-mid-detail{
+    gap: 3px !important;
+  }
+  .notification-more-detail-button{
+    display: none;
+  }
+  .notification-mobile-forward-icon{
+    display: unset;
+    color: white;
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    /* text-align: center; */
+    /* vertical-align: middle; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  }
+  .notification-mobile-view{
+    margin-bottom: 100px;
+  }
+}
