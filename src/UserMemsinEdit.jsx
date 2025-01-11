@@ -155,12 +155,12 @@ const UserMemsinEdit = ({ baseUrl }) => {
     try {
       const response = await axios.post(
         `${baseUrl}Tsit_Cvmv_Edit_Mem_Admin/${adminToken}/${memId}`,
-        mainData,
-        {
-          headers: {
-            "Content-Type": "multipart/form-data",
-          },
-        }
+        // mainData,
+        // {
+        //   headers: {
+        //     "Content-Type": "multipart/form-data",
+        //   },
+        // }
       );
       if (response.data) {
         console.log(response.data);
@@ -169,6 +169,7 @@ const UserMemsinEdit = ({ baseUrl }) => {
       }
     } catch (err) {
       console.error(err);
+     alert(err.message)
     }
   };
 

@@ -26,6 +26,7 @@ const UserMatFilter = ({ baseUrl }) => {
   const [maxValue, set_maxValue] = useState(null);
   const [fromDate, setFromDate] = useState("");
   const [toDate, setToDate] = useState("");
+  const adminToken = localStorage.getItem("token")
 
   const contentRef = useRef(null);
   const reactToPrintFn = useReactToPrint({ contentRef });
@@ -42,7 +43,7 @@ const UserMatFilter = ({ baseUrl }) => {
     const handleGetUserData = async () => {
       try {
         const response = await axios.post(
-          `${baseUrl}Tsit_Cvmv_Get_All_Matri_Details_Admin`
+           `${baseUrl}Tsit_Cvmv_Get_All_Matri_Details_Admin/${adminToken}`
         );
         const data = response.data.matrimony_records;
         console.log(data);

@@ -275,14 +275,18 @@ const UserEditPage = ({ baseUrl }) => {
                 <div className="col-12 col-lg-3">
                   <div className="d-flex flex-column">
                     <label>Marital Status</label>
-                    <input
+                    <select
                       type="text"
                       name="m_status"
                       value={profileData.m_status}
                       onChange={handleChange}
                       placeholder="Marital Status"
                       required
-                    />
+>   <option value="">Select Marital</option>
+          <option>Never Married</option>
+          <option >Divorced</option></select>
+                   
+                    
                   </div>
                 </div>
                 <div className="col-12 col-lg-3">

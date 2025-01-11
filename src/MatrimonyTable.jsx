@@ -7,12 +7,13 @@ import "./MatrimonyTable.css";
 
 const MatrimonyTable = ({ baseUrl }) => {
   const [userData, setUserData] = useState([]);
+  const adminToken = localStorage.getItem("token")
 
   useEffect(() => {
     const handleGetUserData = async () => {
       try {
         const response = await axios.post(
-          `${baseUrl}Tsit_Cvmv_Get_All_Matri_Details_Admin`
+          `${baseUrl}Tsit_Cvmv_Get_All_Matri_Details_Admin/${adminToken}`
         );
         const data = response.data.matrimony_records;
         console.log(data);
