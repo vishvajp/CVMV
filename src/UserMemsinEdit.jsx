@@ -11,7 +11,7 @@ const UserMemsinEdit = ({ baseUrl }) => {
   const [districtData, setDistrictData] = useState(null);
   const [nativeData, setNativeData] = useState(null);
 
-  console.log(specMem);
+  // console.log(specMem);
   const [formData, setFormData] = useState({
     first_name: specMem.first_name || "",
     last_name: specMem.last_name || "",
@@ -46,7 +46,7 @@ const UserMemsinEdit = ({ baseUrl }) => {
       try {
         const response = await axios.post(`${baseUrl}get_dist`);
         const data = response.data.district;
-        console.log(data);
+        // console.log(data);
         setDistrictData(data);
       } catch (err) {
         console.log(err);
@@ -64,7 +64,7 @@ const UserMemsinEdit = ({ baseUrl }) => {
             `${baseUrl}get_native/${formData.district}`
           );
           const data = response.data.native;
-          console.log(data);
+          // console.log(data);
           setNativeData(data);
         } catch (err) {
           console.log(err);
@@ -76,7 +76,7 @@ const UserMemsinEdit = ({ baseUrl }) => {
   }, [formData.district]);
 
   const adminToken = localStorage.getItem("token");
-  console.log(adminToken);
+  // console.log(adminToken);
 
   const handleCancel = () => {
     navToMemPage("/user/membership");
@@ -119,7 +119,7 @@ const UserMemsinEdit = ({ baseUrl }) => {
 
     const mainData = new FormData();
 
-    console.log(formData);
+    // console.log(formData);
 
     // Add other fields from formData
     for (const key in formData) {
@@ -151,16 +151,15 @@ const UserMemsinEdit = ({ baseUrl }) => {
         mainData.append(`relation[${index}]`, child.relation || "");
       });
     }
-
+    // console.log("FormData contents:");
+    // for (let pair of mainData.entries()) {
+    //   console.log(pair[0] + ": " + pair[1]);
+    // }
     try {
       const response = await axios.post(
         `${baseUrl}Tsit_Cvmv_Edit_Mem_Admin/${adminToken}/${memId}`,
-        // mainData,
-        // {
-        //   headers: {
-        //     "Content-Type": "multipart/form-data",
-        //   },
-        // }
+        mainData,
+        
       );
       if (response.data) {
         console.log(response.data);

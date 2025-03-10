@@ -34,19 +34,17 @@ import BannerMatImg from "./BannerMatImg";
 import MatBannerEdit from "./MatBannerEdit";
 import MatrimonyScroll from "./MatrimonyScroll";
 import AddMemUser from "./AddMemUser";
-import Location from "./Location";
+
 import ConfirmationPage from "./ConfirmationPage";
 import AddMatUser from "./AddMatUser";
 import MatriPayment from "./MatriPayment";
 import MatrimonyTable from "./MatrimonyTable";
 import MemberTable from "./MemberTable";
-import EventHistory from "./EventHistory";
+
 import MemDonation from "./MemDonation";
 import MemDonPrint from "./MemDonPrint";
 import MatriTransaction from "./MatriTransaction";
-import AddEvent from "./AddEvent";
-import EventDetail from "./EventDetail";
-import SingleEventDetail from "./SingleEventDetail";
+
 // import ProtectedRoute from "./ProtectedRouter";
 
 function App() {

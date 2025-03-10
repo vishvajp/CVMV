@@ -1,11 +1,14 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect,useRef } from "react";
 import Table from "react-bootstrap/Table";
 import { jsPDF } from "jspdf";
 import "jspdf-autotable"; // Import the autoTable plugin
 import axios from "axios";
+import { DownloadTableExcel } from 'react-export-table-to-excel';
 
 const MemberTable = ({ baseUrl }) => {
   const [userData, setUserData] = useState([]);
+  const tableRef = useRef(null);
+
   useEffect(() => {
     const handleGetUserData = async () => {
       try {
@@ -13,7 +16,6 @@ const MemberTable = ({ baseUrl }) => {
           `${baseUrl}Tsit_Cvmv_Get_ALl_Mem_Admin`
         );
         const data = response.data.Members;
-
         setUserData(data);
       } catch (err) {
         console.log(err);
@@ -50,13 +52,22 @@ const MemberTable = ({ baseUrl }) => {
   return (
     <div>
       {" "}
-      <div className="d-flex justify-content-end pe-2">
+      <div className="d-flex justify-content-end gap-2 pe-2 ">
+      <DownloadTableExcel
+                    filename="Membership Users"
+                    sheet="Membershop"
+                    currentTableRef={tableRef.current}
+                >
+
+                   <button className="btn" style={{backgroundColor:"red", color:"white"}}> Export excel </button>
+
+                </DownloadTableExcel>
         <button onClick={downloadPDF} className="btn btn-primary">
           Download PDF
         </button>
         </div>
       <div className="table-main-div">
-        <Table responsive="sm">
+        <Table responsive="sm"  ref={tableRef}>
           <thead className="table-thead">
             <tr>
               <th className="table-header-Mem " scope="col">
