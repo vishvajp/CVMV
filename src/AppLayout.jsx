@@ -17,12 +17,10 @@ import "./AppLayout.css";
 // import { MdTableRows } from "react-icons/md";
 // import { PiTableBold } from "react-icons/pi";
 // import { FaMinusCircle } from "react-icons/fa";
-
+  
 export default function AppLayout({ children, admin }) {
   const navigate = useNavigate();
   const { Header, Content, Sider, Footer } = Layout;
-
-  const [sidebar, setSidebar] = useState(false);
   const [openKeys, setOpenKeys] = useState([]);
   const [collapsed, setCollapsed] = useState(false);
   const navToNotify = useNavigate();
